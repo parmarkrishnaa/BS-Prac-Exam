@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav button{
+    transition: 0.9s;
+}
+
+nav button:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.offset img{
+    transition: 0.5s;
+}
+
+.offset img:hover{
+    transform: scale(1.1);
+}
